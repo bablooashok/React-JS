@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {Greet} from './components/Greet';
+import { Greet } from './components/Greet';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 
@@ -8,11 +8,23 @@ function App() {
   return (
     <div className="App">
       {/* Functional Component */}
-       <Greet/>
+      <Greet name='Ashok' nickName='Babloo'>
+        <p>This is child prop</p>
+      </Greet>
+      <Greet name='Jaswanth' nickName='Sunny'>
+        <button>Child prop</button>
+      </Greet>
+      <Greet name='Nirmala' nickName='Bunny' />
       {/* Class Component */}
-       <Welcome/>
+      <Welcome name='Ashok' nickName='Babloo'>
+        <p>this is a child prop</p>
+      </Welcome>
+      <Welcome name='Jaswanth' nickName='Sunny'>
+        <button>child</button>
+      </Welcome>
+      <Welcome name='Nirmala' nickName='Bunny' />
       {/* JSX */}
-      <Hello/>
+      <Hello />
     </div>
   );
 }
