@@ -12,18 +12,18 @@ function App() {
       <Counter/>
       {/* <Message name='Ashok'/> */}
       {/* Functional Component */}
-      {/* <Greet name='Ashok' nickName='Babloo'>
+       <Greet name='Ashok' nickName='Babloo'>
         <p>This is child prop</p>
       </Greet>
-      <Greet name='Jaswanth' nickName='Sunny'>
+      {/*<Greet name='Jaswanth' nickName='Sunny'>
         <button>Child prop</button>
       </Greet>
       <Greet name='Nirmala' nickName='Bunny' /> */}
       {/* Class Component */}
-      {/* <Welcome name='Ashok' nickName='Babloo'>
+      <Welcome name='Ashok' nickName='Babloo'>
         <p>this is a child prop</p>
       </Welcome>
-      <Welcome name='Jaswanth' nickName='Sunny'>
+      {/* <Welcome name='Jaswanth' nickName='Sunny'>
         <button>child</button>
       </Welcome>
       <Welcome name='Nirmala' nickName='Bunny' /> */}

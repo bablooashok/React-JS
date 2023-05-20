@@ -6,12 +6,12 @@ import React from 'react'
 //     return <h1>Hello Ashok</h1>
 // }
 
-export const Greet = (props) => {
+export const Greet = ({name, nickName, children}) => {
 
     return (
         <div>
-            <h1>Hello {props.name} aka {props.nickName}</h1>
-            {props.children}
+            <h1>Hello {name} aka {nickName}</h1>
+            {children}
         </div>
     )
 }
